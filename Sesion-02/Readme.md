@@ -31,6 +31,7 @@ Los Boxplots nos ayudan a discernir si nuestros datos están sesgados (si tienen
 > 
 
 [**`Ejemplo 1`**](Ejemplo-01/boxplots.ipynb)
+[**`Reto 1`**](Reto-01/boxplots.ipynb)
 
 ---
 
@@ -43,6 +44,7 @@ Esto puede darnos otra perspectiva de nuestros datos que también resulta muy ú
 > 
 
 [**`Ejemplo 2`**](Ejemplo-02/tabla_de_frecuencias.ipynb)
+[**`Reto 2`**](Reto-02/tabla_de_frecuencias.ipynb)
 
 ---
 
@@ -71,6 +73,7 @@ Aprendamos algunos de los términos más comunes.
 > 
 
 [**`Ejemplo 4`**](Ejemplo-04/describiendo_histogramas.ipynb)
+[**`Reto 3`**](Reto-03/describiendo_histogramas.ipynb)
 
 ---
 
@@ -83,6 +86,7 @@ De igual manera, las gráficas de densidad son una gran herramienta para compara
 > 
 
 [**`Ejemplo 5`**](Ejemplo-05/graficas_de_densidad.ipynb)
+[**`Reto 4`**](Reto-04/graficas_de_densidad.ipynb)
 
 ---
 

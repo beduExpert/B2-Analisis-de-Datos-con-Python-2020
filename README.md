@@ -2,18 +2,16 @@
 
 ### OBJETIVO
 
-
-
 ### ORGANIZACIÓN DE MÓDULO
 
-- [Sesion-01](./Sesion-01):
-- [Sesion-02](./Sesion-02):
-- [Sesion-03](./Sesion-03):
-- [Sesion-04](./Sesion-04):
-- [Sesion-05](./Sesion-05):
-- [Sesion-06](./Sesion-06):
-- [Sesion-07](./Sesion-07):
-- [Sesion-08](./Sesion-08):
+- [Sesion-01: Estimados de Locación y Variabilidad](./Sesion-01/Readme.md):
+- [Sesion-02: Introducción a la visualización de datos: Distribuciones](./Sesion-02/Readme.md):
+- [Sesion-03](./Sesion-03/Readme.md):
+- [Sesion-04](./Sesion-04/Readme.md):
+- [Sesion-05](./Sesion-05/Readme.md):
+- [Sesion-06](./Sesion-06/Readme.md):
+- [Sesion-07](./Sesion-07/Readme.md):
+- [Sesion-08](./Sesion-08/Readme.md):
 
 ### Datasets
 

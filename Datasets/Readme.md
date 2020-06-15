@@ -6,48 +6,44 @@
 
 - [Fuente](https://www.kaggle.com/shrutimehta/zomato-restaurants-data)
 - Archivos locales:
-  - zomato_reviews-raw.json
   - zomato_reviews-clean.json
 - Scripts relacionados:
   - 
 - Sesiones en que se utiliza:
-  - 
+  -
   
 ### 2. New York Times Bestsellers:
 
 - [Fuente](https://www.kaggle.com/cmenca/new-york-times-hardcover-fiction-best-sellers)
 - Archivos locales:
-  - new_york_times_bestsellers-raw.json
   - new_york_times_bestsellers-clean.json
-  - new_york_times_bestsellers-raw.csv
-  - new_york_times_bestsellers-dirty.csv
 - Scripts relacionados:
   - 
 - Sesiones en que se utiliza:
-  - 
+  - Sesión 2 => Reto 1 y 2
   
 ### 3. Melbourne Housing Market:
 
 - [Fuente](https://www.kaggle.com/anthonypino/melbourne-housing-market)
 - Archivos locales:
-  - melbourne_housing-raw.csv
-  - melbourne_housing-no_nans.csv
+  - melbourne_housing-clean.csv
 - Script relacionados:
   - 
 - Sesiones en que se utiliza:
   - Sesión 1 => Prework / Ejemplos
+  - Sesión 2 => Prework / Ejemplos / Reto 1 y 2
   
 ### 4. Near Earth Object Web Service (API)
 
 - [Fuente](https://api.nasa.gov/)
 - Archivos locales:
   - near_earth_objects-raw.csv
-  - near_earth_objects-jan_feb_1995-raw.csv
-  - near_earth_objects-jan_feb_1995-dirty.csv
+  - near_earth_objects-jan_feb_1995-clean.csv
 - Scripts relacionados:
   - 
 - Sesiones en que se utiliza:
   - Sesión 1 => Retos
+  - Sesión 2 => Reto 1 y 2
   
 ### 5. MovieLens Dataset
 
@@ -65,3 +61,30 @@
   - MovieLens/Readme.md
 - Sesiones en que se utiliza:
   - 
+  
+### 6. Diabetes in India
+
+- [Fuente](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+- Archivos locales:
+  - diabetes-clean.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 2 => Reto 3 y 4
+  
+### 7. 120 years of olympic history athletes and results
+
+- [Fuente](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+- Archivos locales:
+  - athlete_olympic_events-clean.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 2 => Reto 3 y 4
+  
+https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
+https://www.kaggle.com/gregorut/videogamesales
+https://www.kaggle.com/hugomathien/soccer?
+https://www.kaggle.com/arindam235/startup-investments-crunchbase
+https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
+https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results

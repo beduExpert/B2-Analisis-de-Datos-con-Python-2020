@@ -3,11 +3,11 @@
 
 ### 1. Objetivos
 
-- Entender qué es una distribución y por qué nos interesa conocer la distribución de nuestros datos.
-- Introducir la librería Seaborn.
+- Comprender el cocncepto de distribución e identificar la distribución de nuestros datos junto con su importancia.
+- Utilizar la librería Seaborn.
 - Conocer los boxplots y aprender a generarlos.
 - Conocer las tablas de frecuencias y los histogramas como maneras de visualizar distribuciones.
-- Aprender a clasificar algunas de las formas que generan los histogramas.
+- Clasificar algunas de las formas que generan los histogramas.
 - Conocer las gráficas de densidad como una alternativa a los histogramas clásicos.
 
 ### 2. Contenido

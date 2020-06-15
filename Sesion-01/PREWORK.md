@@ -19,13 +19,13 @@ El Procesamiento de Datos, que fue el tema del módulo anterior, estará siempre
 
 #### Objetivos
 
-- Aprender a utilizar Google Colab en conjunción con Google Drive y Github
-- Aprender qué tipos de datos estructurados existen
-- Aprender qué son los estimados de locación y en qué momento son útiles
-- Aprender acerca de valores típicos y atípicos
-- Aprender a realizar cálculos estadísticos robustos
-- Aprender qué son los estimados de variabilidad y en qué momento son útiles
-- Aprender sobre los estadísticos de orden
+- Utilizar Google Colab en conjunción con Google Drive y Github.
+- Identificar tipos de datos estructurados existen.
+- Identificar los estimados de locación y en qué momento son útiles.
+- Identificar valores típicos y atípicos.
+- Realizar cálculos estadísticos robustos.
+- Identificar los estimados de variabilidad y en qué momento son útiles.
+- Identificar los estadísticos de orden.
 
 ---
 

@@ -10,7 +10,7 @@
 - Scripts relacionados:
   - 
 - Sesiones en que se utiliza:
-  -
+  - Sesión 3 => Ejemplo 2, 3 y 4
   
 ### 2. New York Times Bestsellers:
 
@@ -32,6 +32,7 @@
 - Sesiones en que se utiliza:
   - Sesión 1 => Prework / Ejemplos
   - Sesión 2 => Prework / Ejemplos / Reto 1 y 2
+  - Sesión 3 => Reto 2, 3, 4 y 5
   
 ### 4. Near Earth Object Web Service (API)
 
@@ -71,6 +72,8 @@
   - 
 - Sesiones en que se utiliza:
   - Sesión 2 => Reto 3 y 4
+  - Sesión 3 => Reto 1
+  - Sesión 4 => Prework
   
 ### 7. 120 years of olympic history athletes and results
 
@@ -81,6 +84,7 @@
   - 
 - Sesiones en que se utiliza:
   - Sesión 2 => Reto 3 y 4
+  - Sesión 3 => Prework / Ejemplos 1 y 5
   
 https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
 https://www.kaggle.com/gregorut/videogamesales

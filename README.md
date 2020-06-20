@@ -6,7 +6,7 @@
 
 - [Sesion-01: Estimados de Locación y Variabilidad](./Sesion-01/Readme.md):
 - [Sesion-02: Introducción a la visualización de datos: Distribuciones](./Sesion-02/Readme.md):
-- [Sesion-03](./Sesion-03/Readme.md):
+- [Sesion-03: Exploración de Variables Categóricas y Análisis Multivariable](./Sesion-03/Readme.md):
 - [Sesion-04](./Sesion-04/Readme.md):
 - [Sesion-05](./Sesion-05/Readme.md):
 - [Sesion-06](./Sesion-06/Readme.md):

@@ -1,13 +1,56 @@
-## Sesión 04: _Hooks_ en _React_
 
-### OBJETIVOS
+## Sesión 02: Correlaciones y Análisis Bivariado
 
-Entender que es un _hook_ en _React_ y por que han decidido incorporarlos como nuevo patrón de desarrollo en la librería.
+### 1. Objetivos
 
-#### ORGANIZACION DE LA CLASE
+- Entender el concepto de correlación entre variables y por qué es relevante
+- Aprender qué significa el coeficiente de correlación y cómo interpretarlo
+- Aprender a hacer matrices de correlaciones y a graficarlas usando heatmaps
+- Aprender a hacer gráficas de dispersión e interpretarlas
+- Saber cómo funcionan las gráficas de dispersión con variable condicionante
+- Aprender el concepto de Gráficas de Pares
+- Aprender a interpretar binning hexagonales y gráficas de contorno para revisar las relaciones entre dos variables cuando los datos son numerosos.
 
-- ¿Qué es un _Hook_?
-- ¿Por qué los _hooks_?
-- _Hooks_ vs Componentes de Clase.
-- Reescribiendo componentes de clase en _Hooks_.
-- Manejo del estado en _Hooks_ (_useState_).
+### 2. Contenido
+
+<ins>Correlaciones y el coeficiente de correlación de Pearson</ins>
+
+Decimos que dos variables están correlacionadas positivamente si el aumento de valores en una de ellas está relacionado con el aumento de valores en la otra; y si la disminución de valores en una está relacionado a la disminución de valores en la otra.
+
+En cambio, decimos que está correlacionadas negativamente si el aumento en los valores de una está relacionado a la disminución de los valores en la otra, y viceversa.
+
+En esta sesión aprenderemos a calcular el coeficiente de correlación de Pearson para cuantificar la correlación entre dos variables numéricas.
+
+>
+
+[**`Ejemplo 1`**](Ejemplo-01/coeficiente_de_pearson.ipynb)
+
+---
+
+<ins>Matriz de correlaciones y mapas de calor</ins>
+
+Revisar nuestras correlaciones una por una es algo lento. Además dificulta la comparación entre múltiples variables. ¿Te has dado cuenta de que este tema de la comparación aparece una y otra vez? Las comparaciones nos dan puntos de referencia para evaluar las magnitudes de los fenónemos que observamos.
+
+Vamos a aprender cómo generar coeficientes de correlación para muchas variables al mismo tiempo.
+
+>
+
+[**`Ejemplo 2`**](Ejemplo-02/matriz_de_correlaciones.ipynb)
+
+---
+
+<ins>Scatterplots o gráficas de dispersión</ins>
+
+Ya viste varios scatterplots en Ejemplos y Retos anteriores. Ahora vas a aprender a hacerlos con tus propias manos. Un scatterplot es una gráfica de dos variables donde cada punto representa una muestra conformada por un valor `x` y un valor `y`.
+
+Las gráficas de dispersión resultan muy útiles en la búsqueda de relaciones entre variables.
+
+>
+
+[**`Ejemplo 3`**](Ejemplo-03/graficas_de_dispersion.ipynb)
+
+---
+
+### 3. Postwork
+
+[**`Postwork Sesión 3`**](Postwork/Readme.md)

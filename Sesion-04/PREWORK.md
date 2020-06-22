@@ -1,4 +1,4 @@
-<div style="text-align: right"><strong>Curso Data Analysis - Módulo 4</br>PREWORK de Correlaciones y Análisis Bivariado</strong></div>
+<div style="text-align: right"><strong>Curso Data Analysis - Módulo 4</br>PREWORK de Correlaciones y Regresión Linear Simple</strong></div>
 
 <div style="text-align: center; color:#FF0000"><strong>PREWORK</br>SESIÓN 4</strong></div>
 
@@ -16,9 +16,8 @@ Vamos a aprender algo de teoría relacionada a correlaciones, así como también
 - Aprender qué significa el coeficiente de correlación y cómo interpretarlo
 - Aprender a hacer matrices de correlaciones y a graficarlas usando heatmaps
 - Aprender a hacer gráficas de dispersión e interpretarlas
-- Saber cómo funcionan las gráficas de dispersión con variable condicionante
 - Aprender el concepto de Gráficas de Pares
-- Aprender a interpretar binning hexagonales y gráficas de contorno para revisar las relaciones entre dos variables cuando los datos son numerosos.
+- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación
 
 ---
 
@@ -101,14 +100,6 @@ Ok, ya sabemos cómo cuantificar la correlación entre dos variables usando el c
 
 Esta relación no es para nada perfecta. Pero si recuerdas, el coeficiente de correlación de Pearson entre estas dos variables es de 0.54, por lo que a pesar de no ser perfecta, podríamos decir que "existe cierta tendencia" de dependendencia entre ambas. La línea que acabamos de dibujar muestra una tendencia puesto que sí podemos inferir a partir de la gráfica que muchas veces un aumento en la variable x es correspondido por un aumento en la variable y.
 
-### Scatterplots con variable condicionante
-
-Así como vimos que los boxplots y violinplots nos sirven para analizar la distribución de una variable numérica después de ser segmentada usando una variable categórica, los scatterplots también nos pueden ayudar a visualizar la relación entre dos variables numéricas después de ser segmentadas usando una variable categórica. Esta variable categórica que se utiliza para segmentar nuestros datos es la que llamamos variable condicionante.
-
-Por ejemplo, aquí tenemos nuestra relación entre la variable 'age' y 'pregnancies' segmentada por la variable condicionante 'outcome' (la que indica si la paciente tiene diabetes o no):
-
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-10.png'></div>
-
 ### Pairplots o Gráficas de Pares
 
 Seaborn tiene un método que facilita muchísimo la visualización de las relaciones entre múltiples variables. De una forma muy similar a las matrices de correlación, los pairplots usan gráficas de dispersión (scatterplots) para graficar todas las posibles combinaciones de relaciones entre las variables de un dataset:
@@ -119,28 +110,36 @@ Seaborn tiene un método que facilita muchísimo la visualización de las relaci
 
 En la diagonal, la intersección de una variable consigo misma, las gráficas de pares colocan un histograma de la variable. Observa las relaciones entre 'insulin' y 'glucose', y también entre 'bmi' y 'skin_thickness'. ¿Parece que hay una relación por ahí, no es así? Recordemos que la relación entre 'insulin' y 'glucose' tiene un coeficiente de correlación de 0.33; de igual manera, 'bmi' y 'skin_thickness' tienen un coeficiente de 0.39.
 
-### Binnings Hexagonales y Gráficas de Contorno
+### Regresión Linear Simple
 
-Podrás imaginar que cuando tenemos muchísimos datos, una gráfica de dispersión puede volverse algo confusa. Por ejemplo, mira esta gráfica de dispersión que incluye 5000 muestras:
+Hemos visto que el coeficiente de correlación de Pearson cuantifica la fuerza de la relación entre dos variables y la dirección de ésta (positiva o negativa). Si la relación es suficientemente fuerte, en teoría podríamos predecir una de las variables usando la otra. La regresión linear simple es el proceso a través del cual intentamos crear una ecuación que pueda predecir una variable utilizando la otra como punto de partida. Lo interesante es que dicha ecuación representa (lo adiviniste) una línea en un plano.
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-12.png'></div>
+Una línea en un plano se ve así:
 
-Sí, podemos apreciar que hay cierta tendencia, pero es imposible discernir la densidad de los puntos en las secciones donde tenemos una gran acumulación de estos.
+Recordarás de tus clases de matemáticas que la ecuación de una línea en un plano se ve así:
 
-Los binnings hexagonales lo que hacen es dividir el plano cartesiano en un número definido de 'bins' (segmentos). Cada 'bin' tiene forma de hexágono, de ahí el nombre de la gráfica. Después, en lugar de graficar cada muestra como un punto, definen la cantidad de puntos que se encuentran dentro de cada hexágono y eso se vuelve la densidad de dicho hexágono. Cada hexágono se rellena de un color que representa la densidad de puntos en dicho hexágono.
+Esto quiere decir que para obtener cada valor `y` tenemos que tomar el valor correspondiente de `x`, multiplicarlo por un *coeficiente* `m` y luego sumarle un *intercepto* `b`. El objetivo de la regresión linear es encontrar los valores para `m` y `b`. Al encontrarlos, en teoría podemos usar `x` para predecir `y`. Como ya hemos dicho varias veces, en la vida real es prácticamente imposible encontrar una correlación perfecta, por lo que la predicción que hagamos nunca va a ser exacta. Por supuesto, entre más fuerte sea la relación entre dos variables, más precisa será la predicción.
 
-Por ejemplo, este es el mismo dataset pero graficado usando un binning hexagonal:
+Por ejemplo, digamos que tenemos el siguiente scatterplot:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-13.png'></div>
+Si cuantificamos el coeficiente de correlación de Pearson obtenemos un valor de `0.8849529343548095`. Esto quiere decir que la correlación es positiva y que es bastante fuerte. Veamos qué tan bien podemos predecir una utilizando la otra.
 
-Es de notar que además de la relación entre los datos (que vemos en los hexágonos de colores), también tenemos histogramas de cada una de las variables. El histograma de la derecha corresponde a la variable en el eje y mientras que el histograma superior corresponde a la variable en el eje x. De esta manera podemos ver con más claridad cuál de las dos variables está influyendo más en los hexágonos que tienen una concentración más elevada.
+Para hacer una regresión linear simple tenemos que decidir cuál de las dos variables es la *independiente* y cuál la *dependiente*. La variable independiente (la variable `x` o 'feature' en inglés) es la que vamos a utilizar para predecir a la otra. La variable dependiente (la variable `y` o 'target' en inglés) es la que vamos a intentar predecir. Usaremos una librería llamada [scikit-learn](https://scikit-learn.org/stable/) para realizar la regresión linear. El proceso a través del cual encontramos los valores para el *coeficiente m* y el *intercepto b* se llama 'entrenamiento'. El algoritmo y los parámetros que estamos utilizando (en este caso los que definen **cómo** llevar a cabo la regresión linear) los llamamos el *modelo*.
 
-Otra manera de visualizar esta relación es utilizando gráficas de contorno. Una gráfica de contorno del dataset anterior se vería así:
+Una vez entrenado el modelo, podemos graficar la línea obtenida y compararla con nuestros puntos:
 
-<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-14.png'></div>
+Las diferencias que hay entre los puntos y la línea, ése es nuestro margen de error. Obviamente el proceso de entrenamiento busca minimizar la distancia entre los puntos y la línea, pero siempre hay un margen de error que debemos de considerar. Una de las medidas que utilizamos para medir la efectividad de nuestro modelo es el llamado `coeficiente de determinación` o `R2` (`R squared`). ¡En el caso de la Regresión Linear Simple `R2` es el cuadrado de nuestro coeficiente de correlación de Pearson! Esto quiere decir que en este caso nuestro `R2` es de `0.7831416960231877`.
 
-Como puedes ver, es bastante similar al binning hexagonal. La diferencia es que esta gráfica es una especie de mapa topológico de las dos variables. Puedes imaginar los contornos como dibujando los niveles de una montaña. El pico más alto representa la mayor densidad de puntos, mientras que la densidad va bajando conforme te acercas a las 'faldas' de la montaña. En este caso sólo vemos un pico, pero hay otras ocasiones donde puede haber múltiples montañas y múltiples picos.
+Como podrás imaginar, `R2` es un valor entre el rango 0 y 1 (pues al elevar cualquier número al cuadrado eliminamos los signos negativos). Podemos interpretarlo como 'qué tanta variación de la variable `y` podemos explicar utilizando la variable `x`'.
 
----
+Usando nuestro modelo entrenado, si quisiéramos predecir el valor de `y` cuando `x` es 10, tendríamos que revisar nuestra línea y ver qué valores para `y` tenemos en este punto:
 
-Podrás preguntarte ahora, ¿para qué buscar correlaciones entre variables? Bueno, una respuesta muy simple es la siguiente: si encuentras una correlación fuerte entre dos variables, podría significar que modificar una de ellas acerque la otra a un valor que consideras deseable. Otra razón puede ser la de realizar predicciones. Usando regresión linear usamos la correlación entre dos variables para intentar predecir una de ellas a partir de la otra. Veremos un poco de regresión linear al final de este módulo. Por lo pronto, ¡a practicar!
+Como puedes ver, el valor 'real' de `y` queda un poco por encima de la línea, así es que nuestra predicción es un poco menor al valor 'real'.
+
+Si quisiéramos predecir el valor de `y` cuando `x` es 20, revisaríamos el valor de `y` en el siguiente punto:
+
+En este caso, el valor 'real' queda por debajo de la predicción.
+
+Nuestras predicciones del mundo real nunca van a ser 100% precisas, dado que el universo es un lugar muy complejo. Si tenemos un modelo como el que acabamos de entrenar, con un `R2` de `0.7831416960231877`, podemos considerarnos sumamente afortunados. ¡Este `R2` significa que podemos explicar un 78% de la variación de `y` usando solamente la variable `x`! ¡Eso es bastante genial!
+
+Si quieres profundizar en el concepto y aplicación de la Regresión Linear Simple, puedes [leer este tutorial](https://www.aprendemachinelearning.com/regresion-lineal-en-espanol-con-python/). Si quieres acercarte un poco más a las matemáticas utilizadas para realizar este proceso, puedes [estudiar estos materiales de Khan Academy](https://es.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals).

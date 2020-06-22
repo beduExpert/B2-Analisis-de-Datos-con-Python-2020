@@ -1,5 +1,5 @@
 
-## Sesión 02: Correlaciones y Análisis Bivariado
+## Sesión 02: Correlaciones y Regresión Linear Simple
 
 ### 1. Objetivos
 
@@ -7,9 +7,8 @@
 - Aprender qué significa el coeficiente de correlación y cómo interpretarlo
 - Aprender a hacer matrices de correlaciones y a graficarlas usando heatmaps
 - Aprender a hacer gráficas de dispersión e interpretarlas
-- Saber cómo funcionan las gráficas de dispersión con variable condicionante
 - Aprender el concepto de Gráficas de Pares
-- Aprender a interpretar binning hexagonales y gráficas de contorno para revisar las relaciones entre dos variables cuando los datos son numerosos.
+- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación
 
 ### 2. Contenido
 
@@ -48,6 +47,32 @@ Las gráficas de dispersión resultan muy útiles en la búsqueda de relaciones 
 >
 
 [**`Ejemplo 3`**](Ejemplo-03/graficas_de_dispersion.ipynb)
+
+---
+
+<ins>Pairplots o Gráficas de Pares</ins>
+
+Existe un tipo de gráfica llamada Pairplot que nos permite de una manera muy rápida visualizar las relaciones bivariadas entre un conjunto de variables.
+
+Veamos cómo puede complementar a una matriz de correlación para facilitar nuestros análisis.
+
+>
+
+[**`Ejemplo 4`**](Ejemplo-04/pairplots.ipynb)
+
+---
+
+<ins>Regresión Lineal Simple</ins>
+
+Después de haber analizado a mucha profundidad las relaciones bivariadas existentes en nuestro dataset podemos preguntarnos si será posible que la relación entre dos variables sea tan fuerte como para poder prededir una a partir de la otra.
+
+La predicción se ha vuelto muy solicitada en el mundo últimamente y la regresión lineal simple es el algoritmo más básico y sencillo para intentar realizarla.
+
+Veamos qué significa hacer una regresión lineal simple y cómo aplicarla.
+
+>
+
+[**`Ejemplo 5`**](Ejemplo-05/regresion_lineal_simple.ipynb)
 
 ---
 

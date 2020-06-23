@@ -23,6 +23,7 @@ En esta sesión aprenderemos a calcular el coeficiente de correlación de Pearso
 >
 
 [**`Ejemplo 1`**](Ejemplo-01/coeficiente_de_pearson.ipynb)
+[**`Reto 1`**](Reto-01/coeficiente_de_pearson.ipynb)
 
 ---
 
@@ -35,6 +36,7 @@ Vamos a aprender cómo generar coeficientes de correlación para muchas variable
 >
 
 [**`Ejemplo 2`**](Ejemplo-02/matriz_de_correlaciones.ipynb)
+[**`Reto 2`**](Reto-02/matriz_de_correlaciones.ipynb)
 
 ---
 
@@ -47,6 +49,7 @@ Las gráficas de dispersión resultan muy útiles en la búsqueda de relaciones 
 >
 
 [**`Ejemplo 3`**](Ejemplo-03/graficas_de_dispersion.ipynb)
+[**`Reto 3`**](Reto-03/graficas_de_dispersion.ipynb)
 
 ---
 
@@ -73,9 +76,10 @@ Veamos qué significa hacer una regresión lineal simple y cómo aplicarla.
 >
 
 [**`Ejemplo 5`**](Ejemplo-05/regresion_lineal_simple.ipynb)
+[**`Reto 4`**](Reto-04/regresion_lineal_simple.ipynb)
 
 ---
 
 ### 3. Postwork
 
-[**`Postwork Sesión 3`**](Postwork/Readme.md)
+[**`Postwork Sesión 4`**](Postwork/Readme.md)

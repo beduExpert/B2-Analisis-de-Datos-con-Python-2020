@@ -116,11 +116,17 @@ Hemos visto que el coeficiente de correlación de Pearson cuantifica la fuerza d
 
 Una línea en un plano se ve así:
 
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-15.png'></div>
+
 Recordarás de tus clases de matemáticas que la ecuación de una línea en un plano se ve así:
+
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-16.png'></div>
 
 Esto quiere decir que para obtener cada valor `y` tenemos que tomar el valor correspondiente de `x`, multiplicarlo por un *coeficiente* `m` y luego sumarle un *intercepto* `b`. El objetivo de la regresión linear es encontrar los valores para `m` y `b`. Al encontrarlos, en teoría podemos usar `x` para predecir `y`. Como ya hemos dicho varias veces, en la vida real es prácticamente imposible encontrar una correlación perfecta, por lo que la predicción que hagamos nunca va a ser exacta. Por supuesto, entre más fuerte sea la relación entre dos variables, más precisa será la predicción.
 
 Por ejemplo, digamos que tenemos el siguiente scatterplot:
+
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-17.png'></div>
 
 Si cuantificamos el coeficiente de correlación de Pearson obtenemos un valor de `0.8849529343548095`. Esto quiere decir que la correlación es positiva y que es bastante fuerte. Veamos qué tan bien podemos predecir una utilizando la otra.
 
@@ -128,15 +134,21 @@ Para hacer una regresión linear simple tenemos que decidir cuál de las dos var
 
 Una vez entrenado el modelo, podemos graficar la línea obtenida y compararla con nuestros puntos:
 
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-18.png'></div>
+
 Las diferencias que hay entre los puntos y la línea, ése es nuestro margen de error. Obviamente el proceso de entrenamiento busca minimizar la distancia entre los puntos y la línea, pero siempre hay un margen de error que debemos de considerar. Una de las medidas que utilizamos para medir la efectividad de nuestro modelo es el llamado `coeficiente de determinación` o `R2` (`R squared`). ¡En el caso de la Regresión Linear Simple `R2` es el cuadrado de nuestro coeficiente de correlación de Pearson! Esto quiere decir que en este caso nuestro `R2` es de `0.7831416960231877`.
 
 Como podrás imaginar, `R2` es un valor entre el rango 0 y 1 (pues al elevar cualquier número al cuadrado eliminamos los signos negativos). Podemos interpretarlo como 'qué tanta variación de la variable `y` podemos explicar utilizando la variable `x`'.
 
 Usando nuestro modelo entrenado, si quisiéramos predecir el valor de `y` cuando `x` es 10, tendríamos que revisar nuestra línea y ver qué valores para `y` tenemos en este punto:
 
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-19.png'></div>
+
 Como puedes ver, el valor 'real' de `y` queda un poco por encima de la línea, así es que nuestra predicción es un poco menor al valor 'real'.
 
 Si quisiéramos predecir el valor de `y` cuando `x` es 20, revisaríamos el valor de `y` en el siguiente punto:
+
+<div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion_4-20.png'></div>
 
 En este caso, el valor 'real' queda por debajo de la predicción.
 

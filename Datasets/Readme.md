@@ -73,7 +73,7 @@
 - Sesiones en que se utiliza:
   - Sesión 2 => Reto 3 y 4
   - Sesión 3 => Reto 1
-  - Sesión 4 => Prework
+  - Sesión 4 => Prework / Ejemplos
   
 ### 7. 120 years of olympic history athletes and results
 
@@ -86,9 +86,26 @@
   - Sesión 2 => Reto 3 y 4
   - Sesión 3 => Prework / Ejemplos 1 y 5
   
+### 8. Videogame Sales
+
+- [Fuente](https://www.kaggle.com/gregorut/videogamesales)
+- Archivos locales:
+  - videogame_sales-raw.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 4 => Reto 1
+  
+### 9. Red Wine Quality
+
+- [Fuente](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
+- Archivos locales:
+  - wine_quality_red-raw.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 4 => Reto 2, 3 y 4
+  
 https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
-https://www.kaggle.com/gregorut/videogamesales
 https://www.kaggle.com/hugomathien/soccer?
 https://www.kaggle.com/arindam235/startup-investments-crunchbase
-https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
-https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results

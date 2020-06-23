@@ -3,12 +3,12 @@
 
 ### 1. Objetivos
 
-- Conocer distintas técnicas para explorar y visualizar variables categóricas
-- Aprender a añadir anotaciones a nuestras gráficas para hacerlas más comprensibles
-- Aprender a utilizar gráficas de barras
-- Aprender a graficar un conjunto de datos agrupado de acuerdo a dos variables categóricas
-- Aprender a producir más de una gráfica al mismo tiempo para compararlas
-- Aprender a graficar un conjunto de datos numéricos agrupados de acuerdo a una variable categórica
+- Identificar distintas técnicas para explorar y visualizar variables categóricas.
+- Añadir anotaciones a nuestras gráficas para hacerlas más comprensibles.
+- Utilizar gráficas de barras.
+- Graficar un conjunto de datos agrupado de acuerdo a dos variables categóricas.
+- Producir más de una gráfica al mismo tiempo para compararlas.
+- Graficar un conjunto de datos numéricos agrupados de acuerdo a una variable categórica.
 
 ### 2. Contenido
 

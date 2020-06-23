@@ -1,14 +1,14 @@
 
-## Sesión 02: Correlaciones y Regresión Linear Simple
+## Sesión 04: Correlaciones y Regresión Linear Simple
 
 ### 1. Objetivos
 
-- Entender el concepto de correlación entre variables y por qué es relevante
-- Aprender qué significa el coeficiente de correlación y cómo interpretarlo
-- Aprender a hacer matrices de correlaciones y a graficarlas usando heatmaps
-- Aprender a hacer gráficas de dispersión e interpretarlas
-- Aprender el concepto de Gráficas de Pares
-- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación
+- Comprender el concepto de correlación entre variables y por qué es relevante.
+- Comprender el significado del coeficiente de correlación e interpretarlo.
+- Hacer matrices de correlaciones y a graficarlas usando heatmaps.
+- Hacer gráficas de dispersión e interpretarlas.
+- Aprender el concepto de Gráficas de Pares.
+- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación.
 
 ### 2. Contenido
 

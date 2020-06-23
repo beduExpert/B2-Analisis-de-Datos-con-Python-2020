@@ -1,5 +1,5 @@
 
-## Sesión 02: Exploración de Variables Categóricas y Análisis Multivariable
+## Sesión 03: Exploración de Variables Categóricas y Análisis Multivariable
 
 ### 1. Objetivos
 

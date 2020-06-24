@@ -12,12 +12,12 @@ Vamos a aprender algo de teoría relacionada a correlaciones, así como también
 
 #### Objetivos
 
-- Entender el concepto de correlación entre variables y por qué es relevante
-- Aprender qué significa el coeficiente de correlación y cómo interpretarlo
-- Aprender a hacer matrices de correlaciones y a graficarlas usando heatmaps
-- Aprender a hacer gráficas de dispersión e interpretarlas
-- Aprender el concepto de Gráficas de Pares
-- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación
+- Entender el concepto de correlación entre variables y por qué es relevante.
+- Identificar el significado del coeficiente de correlación e interpretarlo interpretarlo.
+- Hacer matrices de correlaciones y a graficarlas usando heatmaps.
+- Hacer gráficas de dispersión e interpretarlas.
+- Aprender el concepto de Gráficas de Pares.
+- Aprender el concepto de Regresión Linear Simple y cómo funciona el proceso de entrenamiento e interpretación.
 
 ---
 

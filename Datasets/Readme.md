@@ -101,6 +101,7 @@
 - [Fuente](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
 - Archivos locales:
   - wine_quality_red-raw.csv
+  - wine_quality_red-clean.csv
 - Scripts relacionados:
   - 
 - Sesiones en que se utiliza:

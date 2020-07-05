@@ -10,12 +10,12 @@ Aprovecharemos también el tema de los sesgos para aprender algunas técnicas de
 
 #### Objetivos
 
-- Distinguir la diferencia entre población y muestra
-- Entender el concepto de 'sesgos' y por qué es tan importante estar conscientes de ellos
-- Aprender el concepto de muestreo aleatorio y cómo puede protegernos parcialmente de los sesgos
-- Aprender la técnica 'bootstrap' como medio para explorar la distribución muestral de una estadística
-- Aprender a utilizar histogramas, errores estándar e intervalos de confianza para evaluar la incertidumbre de una medida estadística
-- Aprender técnicas para evitar sesgos en el entrenamiento de modelos, como la división de datasets y la validación cruzada
+- Distinguir la diferencia entre población y muestra.
+- Entender el concepto de 'sesgos' y por qué es tan importante estar conscientes de ellos.
+- Aprender el concepto de muestreo aleatorio y cómo puede protegernos parcialmente de los sesgos.
+- Utilizar la técnica 'bootstrap' como medio para explorar la distribución muestral de una estadística.
+- Crear y utilizar histogramas, errores estándar e intervalos de confianza para evaluar la incertidumbre de una medida estadística.
+- Utilizar técnicas para evitar sesgos en el entrenamiento de modelos, como la división de datasets y la validación cruzada.
 
 ---
 

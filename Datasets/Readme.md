@@ -33,6 +33,7 @@
   - Sesión 1 => Prework / Ejemplos
   - Sesión 2 => Prework / Ejemplos / Reto 1 y 2
   - Sesión 3 => Reto 2, 3, 4 y 5
+  - Sesión 6 => Prework / Ejemplo 1 / Reto 1
   
 ### 4. Near Earth Object Web Service (API)
 
@@ -85,6 +86,7 @@
 - Sesiones en que se utiliza:
   - Sesión 2 => Reto 3 y 4
   - Sesión 3 => Prework / Ejemplos 1 y 5
+  - Sesión 6 => Prework / Ejemplos 2, 3, 4, 5 y 7
   
 ### 8. Videogame Sales
 
@@ -106,6 +108,30 @@
   - 
 - Sesiones en que se utiliza:
   - Sesión 4 => Reto 2, 3 y 4
+  - Sesión 6 => Reto 2
+  
+### 10. Mexico Población
+
+- [Fuente 1](https://gist.github.com/ponentesincausa/46d1d9a94ca04a56f93d)
+- [Fuente 2](http://en.www.inegi.org.mx/temas/estructura/default.html#Tabulados)
+- Archivos locales:
+  - mexico.json
+  - poblacion_mexico_2010.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 6 => Reto 3
+
+### 11. Unemployment Rate US
+
+- [Fuente 1](https://github.com/python-visualization/folium)
+- Archivos locales:
+  - us_states.json
+  - us_unemployment-oct_2012.csv
+- Scripts relacionados:
+  - 
+- Sesiones en que se utiliza:
+  - Sesión 6 => Prework / Ejemplo 6
   
 https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
 https://www.kaggle.com/hugomathien/soccer?

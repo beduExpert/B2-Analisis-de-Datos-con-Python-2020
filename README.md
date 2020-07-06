@@ -4,12 +4,12 @@
 
 ### ORGANIZACIÓN DE MÓDULO
 
-- [Sesion-01: Estimados de Locación y Variabilidad](./Sesion-01/Readme.md):
-- [Sesion-02: Introducción a la visualización de datos: Distribuciones](./Sesion-02/Readme.md):
-- [Sesion-03: Exploración de Variables Categóricas y Análisis Multivariable](./Sesion-03/Readme.md):
-- [Sesion-04: Correlaciones y Regresión Linear Simple](./Sesion-04/Readme.md):
-- [Sesion-05](./Sesion-05/Readme.md):
-- [Sesion-06](./Sesion-06/Readme.md):
+- [Sesion-01: Estimados de Locación y Variabilidad](./Sesion-01/Readme.md)
+- [Sesion-02: Introducción a la visualización de datos: Distribuciones](./Sesion-02/Readme.md)
+- [Sesion-03: Exploración de Variables Categóricas y Análisis Multivariable](./Sesion-03/Readme.md)
+- [Sesion-04: Correlaciones y Regresión Linear Simple](./Sesion-04/Readme.md)
+- [Sesion-05:](./Sesion-05/Readme.md):
+- [Sesion-06: Visualización de Datos Avanzada](./Sesion-06/Readme.md):
 - [Sesion-07](./Sesion-07/Readme.md):
 - [Sesion-08](./Sesion-08/Readme.md):
 

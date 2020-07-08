@@ -1,5 +1,5 @@
 
-## Sesión 05: Visualización de Datos Avanzada
+## Sesión 06: Visualización de Datos Avanzada
 
 ### 1. Objetivos
 

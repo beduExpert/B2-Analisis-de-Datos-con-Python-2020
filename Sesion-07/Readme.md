@@ -1,10 +1,10 @@
 
-## Sesión 05: Pruebas A/B y Procesamiento de Lenguaje Natural
+## Sesión 07: Pruebas A/B y Procesamiento de Lenguaje Natural
 
 ### 1. Objetivos
 
-- Aprender a evaluar los resultados de Pruebas A/B
-- Aprender a aplicar algunas técnicas de lenguaje natural usando Nltk y TextBlob
+- Evaluar los resultados de Pruebas A/B.
+- Aplicar algunas técnicas de lenguaje natural usando Nltk y TextBlob.
 
 ### 2. Contenido
 

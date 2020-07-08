@@ -1,4 +1,4 @@
-## Nombre del Módulo:
+## Análisis de Datos con Python
 
 ### OBJETIVO
 
@@ -10,7 +10,7 @@
 - [Sesion-04: Correlaciones y Regresión Linear Simple](./Sesion-04/Readme.md)
 - [Sesion-05: Distribuciones muestrales y técnicas de evaluación de modelos](./Sesion-05/Readme.md)
 - [Sesion-06: Visualización de Datos Avanzada](./Sesion-06/Readme.md)
-- [Sesion-07](./Sesion-07/Readme.md):
+- [Sesion-07: Pruebas A/B y Procesamiento de Lenguaje Natural](./Sesion-07/Readme.md)
 - [Sesion-08](./Sesion-08/Readme.md):
 
 ### Datasets

@@ -11,11 +11,11 @@
 - [Sesion-05: Distribuciones muestrales y técnicas de evaluación de modelos](./Sesion-05/Readme.md)
 - [Sesion-06: Visualización de Datos Avanzada](./Sesion-06/Readme.md)
 - [Sesion-07: Pruebas A/B y Procesamiento de Lenguaje Natural](./Sesion-07/Readme.md)
-- [Sesion-08](./Sesion-08/Readme.md):
+- [Sesion-08: Introducción a Machine Learning: Clasificación No Supervisada y Supervisada](./Sesion-08/Readme.md):
 
 ### Datasets
 
-- [Link](https://drive.google.com/drive/u/1/folders/1oXUNacyjuHpGBkmESnKIDA5s03UnS8Vg)
+- [Link](https://drive.google.com/drive/folders/1oXUNacyjuHpGBkmESnKIDA5s03UnS8Vg?usp=sharing)
 
 ### Repositorio
 

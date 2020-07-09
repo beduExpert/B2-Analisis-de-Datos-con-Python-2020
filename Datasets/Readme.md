@@ -1,6 +1,6 @@
 ## Datasets utilizados en este módulo:
 
-- [Link al Drive donde están guardados los datasets](https://drive.google.com/drive/u/1/folders/1oXUNacyjuHpGBkmESnKIDA5s03UnS8Vg)
+- [Link al Drive donde están guardados los datasets](https://drive.google.com/drive/folders/1oXUNacyjuHpGBkmESnKIDA5s03UnS8Vg?usp=sharing)
 
 ### 1. Zomato Restaurants Data:
 
@@ -40,22 +40,7 @@
   - Sesión 1 => Retos
   - Sesión 2 => Reto 1 y 2
   
-### 5. MovieLens Dataset
-
-- [Fuente](http://files.grouplens.org/datasets/movielens)
-- Archivos locales:
-  - MovieLens/age_ranges-raw.csv
-  - MovieLens/movies-raw.csv
-  - MovieLens/occupations-raw.csv
-  - MovieLens/ratings-raw.csv
-  - MovieLens/users-raw.csv
-  - MovieLens/users-full.csv
-- Readme:
-  - MovieLens/Readme.md
-- Sesiones en que se utiliza:
-  - 
-  
-### 6. Diabetes in India
+### 5. Diabetes in India
 
 - [Fuente](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
 - Archivos locales:
@@ -64,8 +49,9 @@
   - Sesión 2 => Reto 3 y 4
   - Sesión 3 => Reto 1
   - Sesión 4 => Prework / Ejemplos
+  - Sesión 8 => Reto 2, 3 y 4
   
-### 7. 120 years of olympic history athletes and results
+### 6. 120 years of olympic history athletes and results
 
 - [Fuente](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 - Archivos locales:
@@ -75,7 +61,7 @@
   - Sesión 3 => Prework / Ejemplos 1 y 5
   - Sesión 6 => Prework / Ejemplos 2, 3, 4, 5 y 7
   
-### 8. Videogame Sales
+### 7. Videogame Sales
 
 - [Fuente](https://www.kaggle.com/gregorut/videogamesales)
 - Archivos locales:
@@ -83,7 +69,7 @@
 - Sesiones en que se utiliza:
   - Sesión 4 => Reto 1
   
-### 9. Red Wine Quality
+### 8. Red Wine Quality
 
 - [Fuente](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009)
 - Archivos locales:
@@ -93,7 +79,7 @@
   - Sesión 4 => Reto 2, 3 y 4
   - Sesión 6 => Reto 2
   
-### 10. Mexico Población
+### 9. Mexico Población
 
 - [Fuente 1](https://gist.github.com/ponentesincausa/46d1d9a94ca04a56f93d)
 - [Fuente 2](http://en.www.inegi.org.mx/temas/estructura/default.html#Tabulados)
@@ -103,7 +89,7 @@
 - Sesiones en que se utiliza:
   - Sesión 6 => Reto 3
 
-### 11. Unemployment Rate US
+### 10. Unemployment Rate US
 
 - [Fuente 1](https://github.com/python-visualization/folium)
 - Archivos locales:
@@ -112,7 +98,7 @@
 - Sesiones en que se utiliza:
   - Sesión 6 => Prework / Ejemplo 6
   
-### 12. AB Test - Sales Pipeline
+### 11. AB Test - Sales Pipeline
 
 - Creada para este módulo
 - Archivos locales:
@@ -123,14 +109,27 @@
 - Sesiones en que se utiliza:
   - Sesión 7 => Ejemplo 1 / Reto 1
   
-### 13. Amazon Fine Food Reviews
+### 12. Amazon Fine Food Reviews
 
 - [Fuente](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 - Archivos locales:
   - amazon_fine_food_reviews-clean.csv
 - Sesiones en que se utiliza:
-  - Sesión 7 => Reto 2
+  - Sesión 7 => Reto 2, 3, 4, 5 y 6
+  
+### 13. Crímenes Locación / Distribución de Usuarios
 
-https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities
-https://www.kaggle.com/hugomathien/soccer?
-https://www.kaggle.com/arindam235/startup-investments-crunchbase
+- Creadas para este módulo
+- Archivos locales:
+  - crimenes_locacion.csv
+  - distribucion_usuarios.csv
+- Sesiones en que se utiliza:
+  - Sesión 8 => Prework / Ejemplo 1 / Reto 1
+  
+### 14. Diagnosis tumor de mama
+
+- [Fuente](https://www.kaggle.com/kanncaa1/logistic-regression-implementation)
+- Archivos locales:
+  - breast_cancer_wisconsin.csv
+- Sesiones en que se utiliza:
+  - Sesión 8 => Prework / Ejemplo 2, 3 y 4

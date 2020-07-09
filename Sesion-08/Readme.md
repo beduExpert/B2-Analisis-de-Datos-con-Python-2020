@@ -1,13 +1,13 @@
 
-## Sesión 05: Introducción a Machine Learning: Clasificación No Supervisada y Supervisada
+## Sesión 08: Introducción a Machine Learning: Clasificación No Supervisada y Supervisada
 
 ### 1. Objetivos
 
 - Conocer la definición de Machine Learning, qué es y cómo se utiliza
-- Aprender a aplicar un algoritmo de K-Medias
-- Aprender a interpretar los resultados de K-Medias
-- Aprender a aplicar un algoritmo de Regresión Logística
-- Aprender a evaluar un modelo de Regresión Logística utilizando matriz de confusión y curva ROC / AUC
+- Aplicar un algoritmo de K-Medias
+- Interpretar los resultados de K-Medias
+- Aplicar un algoritmo de Regresión Logística
+- Evaluar un modelo de Regresión Logística utilizando matriz de confusión y curva ROC / AUC
 
 ### 2. Contenido
 

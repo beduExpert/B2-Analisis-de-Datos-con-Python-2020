@@ -10,11 +10,11 @@ En este Prework vamos a ver una pequeña introducción al campo del Machine Lear
 
 #### Objetivos
 
-- Conocer la definición de Machine Learning, qué es y cómo se utiliza
-- Reconocer cuándo es buena idea aplicar un algoritmo de K-Medias
-- Aprender a interpretar los resultados de K-Medias
-- Reconocer cuándo es buena idea aplicar un algoritmo de Regresión Logística
-- Aprender a evaluar un modelo de Regresión Logística utilizando matriz de confusión y curva ROC / AUC
+- Identificar la definición de Machine Learning, qué es y cómo se utiliza
+- Identificar cuándo es buena idea aplicar un algoritmo de K-Medias
+- Interpretar los resultados de K-Medias
+- Identificar cuándo es buena idea aplicar un algoritmo de Regresión Logística
+- Evaluar un modelo de Regresión Logística utilizando matriz de confusión y curva ROC / AUC
 
 ---
 

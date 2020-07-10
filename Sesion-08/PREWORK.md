@@ -173,3 +173,45 @@ Efectivamente, ¡tenemos un valor de AUC de 0.99!
 Utilizando las medidas de Exactitud, Precisión, Sensibilidad y Especificidad, así como la curva ROC / AUC, podemos concluir que nuestro modelo es bastante efectivo para diagnosticar si un tumor de mama es maligno o benigno.
 
 ---
+
+**Quiz**
+
+1. ¿Cuál es la diferencia entre Machine Learning e Inteligencia Artificial?
+
+* La Inteligencia Artificial imita la inteligencia humana, Machine Learning imita el aprendizaje humano
+* **Machine Learning es un subconjunto de la Inteligencia Artificial**
+* Son lo mismo con distintos nombres
+* Inteligencia Artificial es un cubconjunto de Machine Learning
+* La Inteligencia Artificial se usa para reemplazar la inteligencia humana; Machine Learning se usa para complementarla
+
+2. ¿Cuándo utilizamos algoritmos de Clasificación No Supervisada?
+
+* Cuando no sabemos qué algoritmo de clasificación queremos utilizar
+* Cuando nuestro poder de cómputo es muy limitado
+* Cuando tenemos un dataset etiquetado y sabemos exactamente en qué clases queremos agrupar nuestros datos
+* **Cuando queremos clasificar nuestros datos pero no sabemos exactamente qué clases queremos y cuáles son sus características**
+* Cuando no tenemos tiempo de estar revisando que la computadora haga su trabajo
+
+3. ¿A qué llamamos Clasificación Binaria Supervisada?
+
+* Cuando usamos una computadora para clasificar nuestros datos
+* Cuando queremos clasificar nuestros datos pero no sabemos exactamente qué clases queremos y cuáles son sus características
+* Cuando tenemos dos clases pero no tenemos un dataset etiquetado de antemano
+* **Cuando tenemos un dataset etiquetado y queremos clasificar nuestros datos en una de dos clases posibles**
+* Cuando dividimos nuestro dataset en entrenamiento y prueba
+
+4. En un matriz de confusión, ¿a qué se le llama un resultado Falso Positivo?
+
+* Cuando la etiqueta real era negativa y nuestro modelo regresó un resultado negativo
+* Cuando la etiqueta real era positiva y nuestro modelo regresó un resultado positivo
+* Cuando no teníamos etiqueta real y nuestro modelo regresó un resultado positivo
+* Cuando la etiqueta real era positiva pero nuestro modelo regresó un resultado negativo
+* **Cuando la etiqueta real era negativa pero nuestro modelo regresó un resultado positivo**
+
+5. Al graficar una curva ROC / AUC, ¿qué representan los ejes `x` y `y` respectivamente?
+
+* **El eje `x` representa la proporción de Falsos Positivos; el eje `y` representa la proporción de Verdaderos Positivos**
+* El eje `x` representa la proporción de Verdaderos Negativos; el eje `y` representa la proporción de Falsos Negativos
+* El eje `x` representa la Sensibilidad; el eje `y` representa la Especificidad
+* El eje `x` representa la proporción de Falsos Negativos; el eje `y` representa la proporción de Verdaderos Negativos
+* El eje `x` representa la proporción de Verdaderos Positivos; el eje `y` representa la proporción de Falsos Positivos

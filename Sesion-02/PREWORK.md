@@ -182,3 +182,47 @@ Además de mostrarnos con mucha claridad la forma de nuestra distribución, una 
 ---
 
 Ésta fue una introducción teórica a las distribuciones de datos. Aprendimos cómo las visualizaciones pueden ser muy útiles para clarificar cómo están organizados nuestros datos. En el Work aprendemos la práctica de cómo usar Seaborn para explorar nuestros datos.
+
+---
+
+**Quiz**
+
+1. En un diagrama de caja y bigotes, ¿qué percentiles representan los bordes de la caja?
+
+* 25 - 50
+* **25 - 75**
+* 0 - 100
+* 50 - 75
+* 50 - 100
+
+2. En un diagrama de caja y bigotes, ¿cuál es el tamaño máximo de los bigotes?
+
+* **1.5 * Rango Intercuartílico**
+* 1.5 * Rango Total
+* 1.2 * Rango Intercuartílico
+* Rango Intercuartílico ^ 2
+* 1.5 * Mediana
+
+3. En un histograma, ¿qué se grafica en el eje y?
+
+* El rango de los valores
+* Los percentiles
+* El Rango Intercuartílico
+* **La frecuencia de los valores**
+* El logaritmo de los valores
+
+4. ¿En qué caso decimos que una distribución tiene asimetría positiva?
+
+* Cuando la "cola" a la izquierda de la media es más larga que a la derecha
+* Cuando tenemos dos aglomeraciones de datos
+* Cuando las colas se extienden mucho más allá de la mayoría de los datos
+* Cuando la distribución tiene un promedio de 0 y una desviación estándar de 1
+* **Cuando la "cola" a la derecha de la media es más larga que a la izquierda**
+
+5. ¿Qué características tiene una distribución uniforme?
+
+* Es aquélla donde es mucho más probable obtener datos cercanos a la media
+* Es aquélla donde es mucho más probable obtener datos a la izquierda de la media
+* Es aquélla donde la probabilidad de obtener alguno de los valores dentro del rango total es prácticamente la misma
+* Es aquélla donde es mucho más probable obtener datos a la derecha de la media
+* Es aquélla donde la probabilidad de obtener alguno de los valores dentro del Rango Intercuartílico es prácticamente la misma

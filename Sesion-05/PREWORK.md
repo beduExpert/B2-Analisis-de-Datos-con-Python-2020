@@ -195,3 +195,47 @@ Después de este proceso tenemos una medida del desempeño de nuestro modelo que
 ---
 
 El día de hoy has aprendido varias técnicas que sirven para lidiar con los sesgos y la incertidumbre en nuestros datos. Recuerda siempre asumir que existen sesgos e incertidumbre en tus datos antes de siquiera empezar a analizarlos. ¡Mucha suerte y nos vemos en el Work!
+
+---
+
+**Quiz**
+
+1. ¿Qué es una *población* en análisis estadístico?
+
+* Es el grupo al cual tenemos acceso a la hora de realizar un experimento
+* Es el subconjunto de datos que hemos recibido para realizar nuestros análisis
+* **Es el grupo completo acerca del cual se pretende obtener cierta información**
+* Es la cantidad de gente que vive en una región geográfica
+* Un conjunto de muestras
+
+2. ¿Cómo podemos obtener una muestra que no esté sesgada (o que esté sesgada lo menos posible)?
+
+* Tomando elementos de una población donde no existan los sesgos
+* **Tomando elementos de nuestra población de manera aleatoria**
+* Dividiendo nuestra población en partes iguales y tomando una de las partes como muestra
+* Tomando muestras una y otra vez hasta que obtengamos una que no esté sesgada
+* Seleccionando cuidadosamente los elementos que tomamos para la muestra
+
+3. ¿Qué es el error estándar?
+
+* **Es una medida de la variabilidad de la estadística que estamos analizando**
+* Es el error esperado a la hora de realizar un Boostrap
+* Es el error típico en las medidas de variabilidad estadística
+* Es la diferencia entre el tamaño de una población y el tamaño de una muestra
+* Es la diferencia entre cada elemento del dataset y el promedio
+
+4. ¿Cómo podemos interpretar el valor del error estándar?
+
+* Entre mayor el error estándar (y por lo tanto mayor curtosis), menos variabilidad e incertidumbre en nuestra medida estadística
+* Entre mayor el error estándar (y por lo tanto menor curtosis), menos variabilidad e incertidumbre en nuestra medida estadística
+* Entre menor el error estándar (y por lo tanto menor curtosis), más variabilidad e incertidumbre en nuestra medida estadística
+* **Entre mayor el error estándar (y por lo tanto mayor curtosis), más variabilidad e incertidumbre en nuestra medida estadística**
+* Entre menor el error estándar (y por lo tanto mayor curtosis), más variabilidad e incertidumbre en nuestra medida estadística
+
+5. A la hora de entrenar un modelo de Regresión Lineal, ¿de qué nos sirve dividir nuestro dataset en entrenamiento y prueba?
+
+* Es parte del proceso organizado de un científico de datos
+* Nos ayuda a disminuir el error estándar
+* **Nos permite tener cierta seguridad de que nuestro modelo tenga el mismo desempeño en el mundo real**
+* El modelo de Regresión Lineal sólo puede ser entrenado con el dataset de entrenamiento
+* Facilita la obtención de una hipótesis válida

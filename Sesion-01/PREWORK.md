@@ -292,3 +292,47 @@ Podemos deducir viendo estos números que la mayoría de los datos están mucho 
 Desarrollaremos nuestra intuición acerca de estas estadísticas usando visualizaciones en la siguiente sesión, pero por lo pronto, en la sesión aprenderás a calcular todas estas medidas usando Python y pandas.
 
 ¡Mucha suerte!
+
+---
+
+**Quiz**
+
+1. ¿Cómo se llaman los tipos de datos que solamente tienen dos valores posibles?
+
+* Categóricos
+* Continuos
+* **Binarios**
+* Discretos
+* Estructurados
+
+2. ¿Cómo se le llama a los estimados que son menos sensibles a la presencia de valores atípicos?
+
+* Insensible
+* Fuerte
+* Estable
+* **Robusto**
+* Tenaz
+
+3. ¿Cuál de los siguientes es un estimado de variabilidad?
+
+* **Desviación estándar**
+* Promedio
+* Media truncada
+* Mediana
+* Media ponderada
+
+4. ¿Qué es el rango?
+
+* La diferencia entre el promedio y la mediana
+* La diferencia entre la desviación estándar y el promedio
+* La diferencia entre la mediana y el percentil 100
+* **La diferencia entre el valor máximo y el mínimo**
+* La diferencia entre la desviación estándar y la mediana
+
+5. ¿Qué es el Rango Intercuartílico?
+
+* **La diferencia entre el percentil 75 y el percentil 25**
+* La diferencia entre el percentil 100 y el percentil 0
+* La diferencia entre el percentil 75 y el percentil 0
+* La diferencia entre el percentil 100 y el percentil 50
+* La diferencia entre el percentil 50 y el percentil 25

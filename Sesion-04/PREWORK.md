@@ -86,7 +86,7 @@ Notarás que removí la variable 'outcome'. A pesar de que ésta es la variable 
 Es importante también recalcar lo siguiente:
 
 1. El coeficiente de correlación de Pearson es muy sensible a valores atípicos, así que siempre hay que asegurarse de que la carencia (o existencia) de una relación suceda 'a pesar' de los valores atípicos y no debido a ellos.
-2. El hecho de que el coeficiente de correlación de Pearson sea cercano a 0 no significa que no hay **ninguna correlación posible** entre dos variables. Meramente significa que **no existe una relación linear** entre las variables. Si quieres conocer algunas otras maneras de cuantificar relaciones entre variables puedes [ir aquí](https://bookdown.org/dietrichson/metodos-cuantitativos/coeficientes-de-correlacion.html)(ojo, es el mismo link de hace rato) [o aquí](https://www.fisterra.com/formacion/metodologia-investigacion/relacion-entre-variables-cuantitativas/#:~:text=Determinar%20si%20las%20dos%20variables,determinado%20de%20la%20otra%20variable.).
+2. El hecho de que el coeficiente de correlación de Pearson sea cercano a 0 no significa que no hay **ninguna correlación posible** entre dos variables. Meramente significa que **no existe una relación lineal** entre las variables. Si quieres conocer algunas otras maneras de cuantificar relaciones entre variables puedes [ir aquí](https://bookdown.org/dietrichson/metodos-cuantitativos/coeficientes-de-correlacion.html)(ojo, es el mismo link de hace rato) [o aquí](https://www.fisterra.com/formacion/metodologia-investigacion/relacion-entre-variables-cuantitativas/#:~:text=Determinar%20si%20las%20dos%20variables,determinado%20de%20la%20otra%20variable.).
 
 ### Scatterplots o Gráficas de Dispersión
 
@@ -110,9 +110,9 @@ Seaborn tiene un método que facilita muchísimo la visualización de las relaci
 
 En la diagonal, la intersección de una variable consigo misma, las gráficas de pares colocan un histograma de la variable. Observa las relaciones entre 'insulin' y 'glucose', y también entre 'bmi' y 'skin_thickness'. ¿Parece que hay una relación por ahí, no es así? Recordemos que la relación entre 'insulin' y 'glucose' tiene un coeficiente de correlación de 0.33; de igual manera, 'bmi' y 'skin_thickness' tienen un coeficiente de 0.39.
 
-### Regresión Linear Simple
+### Regresión Lineal Simple
 
-Hemos visto que el coeficiente de correlación de Pearson cuantifica la fuerza de la relación entre dos variables y la dirección de ésta (positiva o negativa). Si la relación es suficientemente fuerte, en teoría podríamos predecir una de las variables usando la otra. La regresión linear simple es el proceso a través del cual intentamos crear una ecuación que pueda predecir una variable utilizando la otra como punto de partida. Lo interesante es que dicha ecuación representa (lo adiviniste) una línea en un plano.
+Hemos visto que el coeficiente de correlación de Pearson cuantifica la fuerza de la relación entre dos variables y la dirección de ésta (positiva o negativa). Si la relación es suficientemente fuerte, en teoría podríamos predecir una de las variables usando la otra. La regresión lineal simple es el proceso a través del cual intentamos crear una ecuación que pueda predecir una variable utilizando la otra como punto de partida. Lo interesante es que dicha ecuación representa (lo adiviniste) una línea en un plano.
 
 Una línea en un plano se ve así:
 
@@ -155,3 +155,47 @@ En este caso, el valor 'real' queda por debajo de la predicción.
 Nuestras predicciones del mundo real nunca van a ser 100% precisas, dado que el universo es un lugar muy complejo. Si tenemos un modelo como el que acabamos de entrenar, con un `R2` de `0.7831416960231877`, podemos considerarnos sumamente afortunados. ¡Este `R2` significa que podemos explicar un 78% de la variación de `y` usando solamente la variable `x`! ¡Eso es bastante genial!
 
 Si quieres profundizar en el concepto y aplicación de la Regresión Linear Simple, puedes [leer este tutorial](https://www.aprendemachinelearning.com/regresion-lineal-en-espanol-con-python/). Si quieres acercarte un poco más a las matemáticas utilizadas para realizar este proceso, puedes [estudiar estos materiales de Khan Academy](https://es.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals).
+
+---
+
+**Quiz**
+
+1. ¿Qué significa que dos variables estén correlacionadas positivamente?
+
+* Que el aumento de valores en una de ellas está relacionado con la disminución de valores en la otra
+* Que un cambio en una variable causa un cambio en la otra variable
+* **Que el aumento de valores en una de ellas está relacionado con el aumento de valores en la otra**
+* Que las dos variables son totalmente independientes
+* Que la disminución de valores en una de ellas está relacionado con el aumento de valores en la otra
+
+2. ¿Qué significa un valor de -1 en un coeficiente de correlación de Pearson?
+
+* Indica una correlación positiva perfecta entre nuestras variables: si una disminuye, la otra disminuye en la misma proporción
+* **Indica una correlación negativa perfecta entre nuestras variables: si una aumenta, la otra disminuye en la misma proporción**
+* Indica una correlación positiva perfecta entre nuestras variables: si una aumenta, la otra aumenta en la misma proporción
+* Indica una correlación negativa perfecta entre nuestras variables: si una aumenta, la otra aumenta en la misma proporción
+* Indica una correlación negativa perfecta entre nuestras variables: si una disminuye, la otra disminuye en la misma proporción
+
+3. ¿Qué podemos concluir si obtenemos un coeficiente de correlación de Pearson con valor 0?
+
+* Que el cambio en una de las variables causa un cambio en la otra
+* Que no existe ningún tipo de relación entre las dos variables
+* Que existe una correlación de tipo positivo perfecto
+* Que no existe una relación polinomial entre las dos variables
+* **Que no existe una relación lineal entre las dos variables**
+
+4. ¿Qué es una variable *dependiente*?
+
+* **Es la variable que estamos intentando predecir usando un modelo de Regresión Lineal Simple**
+* Es la variable que aumenta si todas las demás variables aumentan
+* Es la variable que causa cambios en las demás variables
+* Es la variable que usamos para predecir otra variable en un modelo de Regresión Lineal Simple
+* Es la variable que aumenta si todas las demás disminuyen
+
+5. ¿Qué explica el valor del coeficiente de determinación (R2)?
+
+* Si la correlación entre dos variables es positiva o negativa
+* Qué tanta variación de la variable `x` podemos explicar utilizando la variable `y`
+* Si el coeficiente de correlación de Pearson es el algoritmo adecuado para nuestro problema
+* **Qué tanta variación de la variable `y` podemos explicar utilizando la variable `x`**
+* Qué tanta variación de la variable `y` podemos explicar utilizando la misma variable `y`

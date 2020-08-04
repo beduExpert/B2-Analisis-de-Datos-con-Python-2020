@@ -19,7 +19,11 @@
 
 ### Repositorio
 
-- [Repositorio](https://github.com/beduExpert/B2-Analisis-de-Datos-con-Python-2020.git)
+- [Repositorio](https://github.com/beduExpert/B2-Analisis-de-Datos-con-Python-2020.git)  
+
+### Instalaciones
+
+https://bedu.org/blog/tecnologia/instalaciones-para-el-analisis-de-datos-con-python/
 
 ### ¿Dónde están las funciones de verificación?
 

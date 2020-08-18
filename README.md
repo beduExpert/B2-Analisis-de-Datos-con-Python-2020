@@ -13,6 +13,8 @@
 - [Sesion-07: Pruebas A/B y Procesamiento de Lenguaje Natural](./Sesion-07/Readme.md)
 - [Sesion-08: Introducción a Machine Learning: Clasificación No Supervisada y Supervisada](./Sesion-08/Readme.md)
 
+> Para acceder a las soluciones, clona la branch `master` en tu computadora. Las soluciones no son visibles desde Github.
+
 ### Datasets
 
 - [Link](https://drive.google.com/drive/folders/1oXUNacyjuHpGBkmESnKIDA5s03UnS8Vg?usp=sharing)

@@ -93,7 +93,7 @@ Las tablas de contingencia son muy útiles cuando queremos hacer conteo de frecu
 > 
 
 [**`Ejemplo 5`**](Ejemplo-05/boxplots_y_violinplots.ipynb)
-[**`Reto 5`**](Reto-04/boxplots_y_violinplots.ipynb)
+[**`Reto 5`**](Reto-05/boxplots_y_violinplots.ipynb)
 
 ---
 

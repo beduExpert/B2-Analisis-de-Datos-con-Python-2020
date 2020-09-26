@@ -29,15 +29,13 @@ Platiquemos un poco acerca de:
 5. ¿Qué problemas pueden surgir en este proceso de generalización?
 6. ¿Cómo podemos evitar algunos de estos problemas o aunque sea minimizarlos?
 
-> Las preguntas son una especie de Reto. No hay que tomarlas a la ligera. Es posible discutirlas con todo el grupo o también dividir al grupo en subgrupos y que cada subgrupo realice su propio debate. Podría ser una buena idea incentivar a todos a que participen.
-
 ---
 
 <ins>Sesgos en nuestros datos</ins>
 
 Una de las dificultades a las que nos enfrentamos cuando trabajamos con muestras de datos es que hay una alta probabilidad de que nuestros datos estén sesgados. Esto quiere decir que tienen una tendencia que no refleja la realidad tal y como es.
 
-Los sesgos son muy peligrosos. Dificultan y hasta imposibilitan la obtención de información útil. Cuando nuestros datos están sesgados, la información que obtengamos no puede ser generalizada  al resto de la población, puesto no que no refleja la realidad como es, sólo una perspectiva de ella.
+Los sesgos son muy peligrosos. Dificultan y hasta imposibilitan la obtención de información útil. Cuando nuestros datos están sesgados, la información que obtengamos no puede ser generalizada  al resto de la población, puesto que no refleja la realidad como es, sólo una perspectiva de ella.
 
 Entrenar modelos predictivos y clasificatorios utilizando datos sesgados puede resultar en enormes e inaceptables injusticias.
 
@@ -50,8 +48,6 @@ Platiquemos un poco acerca de:
 3. ¿Qué podemos hacer para evitar sesgos en nuestros datos?
 4. ¿De qué manera dañan a la sociedad estos sesgos?
 5. ¿Qué papel juegan los científicos de datos en la eliminación de estos sesgos?
-
-> Las preguntas son una especie de Reto. No hay que tomarlas a la ligera. Es posible discutirlas con todo el grupo o también dividir al grupo en subgrupos y que cada subgrupo realice su propio debate. Podría ser una buena idea incentivar a todos a que participen.
 
 ---
 
@@ -100,8 +96,6 @@ Hay varias formas en las que podemos encontrar este tipo de problemas al entrena
   c) ¿Cómo podemos protegernos de este tipo de errores? ¿Es posible eliminar por completo los sesgos en nuestros datos?
 
 2. Existe la posibilidad de que un modelo que entrenemos resulte muy bueno para predecir los datos con los que fue entrenado, pero que no pueda generalizar su capacidad predictiva a datos que no ha visto anteriormente. Como normalmente tampoco es una opción regresar a la fuente de los datos para colectar nuestras muestras, necesitamos entonces algunas técnicas que nos permitan tener un poco más de confianza en nuestros modelos. A continuación vamos a ver en la práctica dos maneras de evitar este problema.
-
-> Las preguntas son una especie de Reto. No hay que tomarlas a la ligera. Es posible discutirlas con todo el grupo o también dividir al grupo en subgrupos y que cada subgrupo realice su propio debate. Podría ser una buena idea incentivar a todos a que participen.
 
 ---
 

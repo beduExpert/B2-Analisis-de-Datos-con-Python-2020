@@ -52,9 +52,6 @@ Vamos a explorar algunas herramientas y técnicas que hacen esto posible.
 [**`Ejemplo 5`**](Ejemplo-05/nlp_visualizaciones.ipynb)
 [**`Reto 4`**](Reto-04/nltk_freq_dist_y_visualizaciones.ipynb)
 
-[**`Ejemplo 6`**](Ejemplo-06/analisis_de_sentimientos.ipynb)
-[**`Reto 5`**](Reto-05/analisis_de_sentimientos.ipynb)
-
 ---
 
 ### 3. Postwork

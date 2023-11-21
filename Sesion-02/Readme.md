@@ -58,7 +58,7 @@ El eje y indica el conteo de muestras en cada segmento.
 
 > 
 
-[**`Ejemplo 3`**](Ejemplo-04/histogramas.ipynb)
+[**`Ejemplo 3`**]([Ejemplo-04/histogramas.ipynb](https://github.com/beduExpert/B2-Analisis-de-Datos-con-Python-2020/blob/master/Sesion-02/Ejemplo-03/histogramas.ipynb))
 
 ---
 

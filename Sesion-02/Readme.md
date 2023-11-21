@@ -58,7 +58,7 @@ El eje y indica el conteo de muestras en cada segmento.
 
 > 
 
-[**`Ejemplo 3`**](Sesion-02/Ejemplo-03/histogramas.ipynb)
+[**`Ejemplo 3`**](Sesion-02/Ejemplo-03)
 
 ---
 

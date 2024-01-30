@@ -1,6 +1,6 @@
 ## Análisis de Datos con Python 2020
 
-### OBJETIVO
+### Objetivo
 
 ### ORGANIZACIÓN DE MÓDULO
 
